@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Tutorial Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <h1 class=" title is-1">ROCK, PAPER, SCISSORS!</h1>
+                <figure class="image is-158x128">
+                    <img src="img/rock_paper_scissors.png" alt="">
+                </figure>
+            </div>
+        </div>
+
+        <div class="columns">
+            <div class="column is-three-fifths is-offset-one-fifth">
+                <h2 class="title is-3">Computer's Choice: <span id="computer-choice"></span></h2>
+                <h2 class="title is-3">User's Choice: <span id="user-choice"></span></h2>
+                <h2 class="title is-3">Result: <span id="result"></span></h2>
+                <button class="button is-primary" id="rock">Rock</button>
+                <button class="button is-info" id="paper">Paper</button>
+                <button class="button is-warning" id="scissors">Scissors</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
